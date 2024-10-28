@@ -1,0 +1,38 @@
+/* Reset and basic styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    color: white;
+    font-family: Arial, sans-serif;
+    background-color: black;
+}
+
+/* Marquee styling */
+h1 {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    text-align: center;
+    background: #2e2e2e;
+    padding: 10px 0;
+    z-index: 1; /* Ensure it stays on top */
+}
+
+/* Main container styling */
+.cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.github-card
+{
+    width: 100vw;
+}
