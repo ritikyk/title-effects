@@ -15,20 +15,9 @@
 [![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
 [![AGPL License](https://img.shields.io/badge/license-AGPL-blue.svg)](http://www.gnu.org/licenses/agpl-3.0)
 
-## Deployment
-
-To deploy the simple website integrated in the project use any local server.
 ## Feedback
 
 If you have any feedback, please reach out to us at ritikrajwrites@gmail.com
-
-
-## 🚀 About Me
-I'm a full stack developer...
-
-
-# Hi, I'm Ritik! 👋
-
 
 ## License
 
@@ -47,13 +36,11 @@ For support, email ipsumcoder@gmail.com or text me on Instagram at [ritik_fr](ht
 
 #### Is This Project Completed?
 
-The project is yet in development and new key features such as marquee and others are yet to come along with a simple code snippet to integrate to your webpage.
+The project is yet in development and new key features such are yet to come along with a simple code snippet to integrate to your webpage.
 
 #### When is the next update expected?
 
 The next update is expected to come by the end of this month with various cool features, found no where else in the community.
-
-
 
 ## Demo
 
