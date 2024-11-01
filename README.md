@@ -107,3 +107,4 @@ Please adhere to this project's `code of conduct`.
 
 - [@ritikyk](https://www.github.com/ritikyk)
 
+- ***PLEASE DO NOT FORGET TO ⭐ THE REPO***
