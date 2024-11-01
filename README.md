@@ -8,6 +8,55 @@
 ⭐ Whether you’re building a personal site or a complex web app, HTML Title Effects will offer easy-to-integrate code snippets and customizable options for seamless adoption very soon.
 
 
+## Effects
+
+✨ **`Type Writer`**
+    
+- **Class name** -> *type-write*
+- **Effect** -> *Adds the typing effect to the title, with each character being typed with a custom speed of your choice*
+
+✨ **`Left Marquee`**
+    
+- **Class name** -> *marquee-left*
+- **Effect** -> *Adds the marquee effect to the title, with each character scrolling from right to the left of the screen with a custom speed of your choice*
+
+✨ **`Right Marquee`**
+    
+- **Class name** -> *marquee-right*
+- **Effect** -> *Adds the marquee effect to the title, with each character scrolling from left to the right of the screen with a custom speed of your choice*
+
+✨ **`Ping Pong Marquee`**
+    
+- **Class name** -> *marquee-pingpong*
+- **Effect** -> *Adds the marquee effect to the title, with each character scrolling first from left to right and then right to left of the screen with a custom speed of your choice*
+
+⭐ All these effects work in loop and cannot be customised by the number of times currently. However, the feature is in progress and would be added within a week on the next patch update.
+
+
+## Installation
+
+Install title-effects with npm
+
+```bash
+  npm install title-effects
+
+```
+
+
+## Usage/Examples
+After installation, in your html file insert the below code snippet
+```
+<script src="/node_modules/title-effects/index.js"></script>
+```
+
+Then in the title tag, add a class from the above list of class names 
+```
+<title class = "marquee-left"> Hello World! </title>
+```
+
+Boom! See the title effect automatically applied in your web application🔥
+
+
 ## Badges
 
 
@@ -36,7 +85,7 @@ For support, email ipsumcoder@gmail.com or text me on Instagram at [ritik_fr](ht
 
 #### Is This Project Completed?
 
-The project is yet in development and new key features such are yet to come along with a simple code snippet to integrate to your webpage.
+The project is yet in development and new key features are yet to come along with a simple code snippet to integrate to your webpage.
 
 #### When is the next update expected?
 
