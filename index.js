@@ -1,10 +1,13 @@
 // Original title and favicon settings
 pageTitle = document.title.replace(/ /g, '\u00A0');
 normalFavicon = 'https://cdn-icons-png.flaticon.com/512/7218/7218647.png'; // Real Favicon Of The Page
-attentionMessage = "Ritik Misses YOU!".replace(/ /g, '\u00A0'); // Message to show when tab is changed
+attentionMessage = "Please Return Back!".replace(/ /g, '\u00A0'); // Message to show when tab is changed
 attentionFavicon = 'https://cdn-icons-png.flaticon.com/512/260/260182.png'; // Favicon to show when tab is changed
 time = 250; // Typing speed
 marqueeSpeed = 300; // Speed for marquee effect
+const titles = ['Welcome', 'Hola Amigo', 'Namaskar', 'Assalam Walaikum', 'Hello'];
+const icons = ['https://as1.ftcdn.net/v2/jpg/05/23/04/00/1000_F_523040057_JYMTxoQGquklUthNLLjspI7ldR1hrFlH.jpg', 'https://ih1.redbubble.net/image.3880694799.1096/st,small,507x507-pad,600x600,f8f8f8.u2.jpg', 'https://st2.depositphotos.com/3210085/5239/v/450/depositphotos_52393811-stock-illustration-welcome-gesture-of-hands-of.jpg', 'https://i.pinimg.com/474x/e4/8c/09/e48c09c32b0f0b097b5bf79f39471f6b.jpg', 'https://images.squarespace-cdn.com/content/v1/5e949a92e17d55230cd1d44f/65963c6a-a64d-44ba-bef1-0d15bc5f25dc/Hello201x1.png'];
+changingSpeed = 3;
 
 //Non-Customisation
 let cancelled = false;
@@ -74,7 +77,7 @@ function pingPongMarquee(str) {
         } else {
             marqueeText = marqueeText.charAt(marqueeText.length - 1) + marqueeText.slice(0, -1); // Shift right
         }
-        
+
         document.title = marqueeText;
 
         // Change direction at the edges (length of original text)
@@ -82,6 +85,22 @@ function pingPongMarquee(str) {
             scrollDirection = (scrollDirection === 'left') ? 'right' : 'left';
         }
     }, marqueeSpeed);
+}
+
+//Changing Title Function for Changing Titles And Favicons
+function changingTitle(n = 0) {
+    if (n >= titles.length) n = 0; // Reset to the start if we reach the end
+    document.title = titles[n];
+    changeFavicon(icons[n]);
+    setTimeout(() => changingTitle(n + 1), changingSpeed * 1000);
+}
+
+//Random Title Function For Changing Titles And Favicons
+function randomTitle()
+{
+    const randomIndex = Math.floor(Math.random() * titles.length);
+    document.title = titles[randomIndex];
+    changeFavicon(icons[randomIndex]);
 }
 
 // Visibility change listeners based on class
@@ -123,7 +142,7 @@ if (titleTag && titleTag.classList.contains('marquee-left')) {
         }
     });
 
-    marqueeTitle('\u00A0'+'\u00A0'+'\u00A0'+'\u00A0'+pageTitle);
+    marqueeTitle('\u00A0' + '\u00A0' + '\u00A0' + '\u00A0' + pageTitle);
 }
 
 if (titleTag && titleTag.classList.contains('marquee-right')) {
@@ -143,7 +162,7 @@ if (titleTag && titleTag.classList.contains('marquee-right')) {
         }
     });
 
-    marqueeRightTitle('\u00A0'+'\u00A0'+'\u00A0'+'\u00A0'+pageTitle); // Start right marquee effect
+    marqueeRightTitle('\u00A0' + '\u00A0' + '\u00A0' + '\u00A0' + pageTitle); // Start right marquee effect
 }
 
 // Visibility change listeners for ping-pong marquee
@@ -164,5 +183,15 @@ if (titleTag && titleTag.classList.contains('marquee-pingpong')) {
         }
     });
 
-    pingPongMarquee('\u00A0'+'\u00A0'+'\u00A0'+'\u00A0'+pageTitle); // Start the ping-pong effect
+    pingPongMarquee('\u00A0' + '\u00A0' + '\u00A0' + '\u00A0' + pageTitle); // Start the ping-pong effect
+}
+
+// Visibility change listeners for changing titles
+if (titleTag && titleTag.classList.contains('changing')) {
+    changingTitle();
+}
+
+// Visibility change listeners for changing titles
+if (titleTag && titleTag.classList.contains('random')) {
+    randomTitle();
 }
