@@ -30,6 +30,16 @@
 - **Class name** -> *marquee-pingpong*
 - **Effect** -> *Adds the marquee effect to the title, with each character scrolling first from left to right and then right to left of the screen with a custom speed of your choice*
 
+✨ **`Random Title`**
+    
+- **Class name** -> *random*
+- **Effect** -> *Chooses a random title and favicon from a custom list of titles and favicons and applies it on the website.*
+
+✨ **`Changing Title`**
+    
+- **Class name** -> *changing*
+- **Effect** -> *Chooses a random title and favicon from a custom list of titles and favicons and applies it on the website which gets changed automatically after a certain period of time.*
+
 ⭐ All these effects work in loop and cannot be customised by the number of times currently. However, the feature is in progress and would be added within a week on the next patch update.
 
 
@@ -85,7 +95,7 @@ For support, email ipsumcoder@gmail.com or text me on Instagram at [ritik_fr](ht
 
 #### Is This Project Completed?
 
-The project is yet in development and new key features are yet to come along with a simple code snippet to integrate to your webpage.
+The project is yet in development and new key features are yet to come along with lot of bug fixes if trying to use two effects at the same time.
 
 #### When is the next update expected?
 
@@ -106,5 +116,3 @@ Please adhere to this project's `code of conduct`.
 ## Authors
 
 - [@ritikyk](https://www.github.com/ritikyk)
-
-- ***PLEASE DO NOT FORGET TO ⭐ THE REPO***
