@@ -110,9 +110,22 @@ The project is yet in development and new key features are yet to come along wit
 
 The next update is expected to come by the end of this month with various cool features, found no where else in the community.
 
-## Demo
+![GitHub repo size](https://img.shields.io/github/repo-size/ritikyk/title-effects)
+![GitHub issues](https://img.shields.io/github/issues/ritikyk/title-effects)
+![GitHub forks](https://img.shields.io/github/forks/ritikyk/title-effects)
+![GitHub stars](https://img.shields.io/github/stars/ritikyk/title-effects)
+![GitHub license](https://img.shields.io/github/license/ritikyk/title-effects)
+![GitHub last commit](https://img.shields.io/github/last-commit/ritikyk/title-effects)
 
-https://i.ibb.co/XLxsFyC/Screenshot-610.png
+## Stats and Activity
+### Contributors
+![GitHub contributors](https://img.shields.io/github/contributors/ritikyk/title-effects)
+
+### Commit Activity
+[![Commit Activity](https://github-readme-stats.vercel.app/api/pin/?username=ritikyk&repo=title-effects)](https://github.com/ritikyk/title-effects)
+
+### Language Breakdown
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ritikyk&layout=compact&repo=title-effects)](https://github.com/ritikyk/title-effects)
 ## Contributing
 
 Contributions are always welcome!
