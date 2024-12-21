@@ -52,6 +52,9 @@ Install title-effects with npm
 
 ```
 
+OR
+
+**YOU MAY SKIP THIS STEP AND DIRECTLY FOLLOW FROM (A)**
 
 ## Usage/Examples
 After installation, in your html file insert the below code snippet
@@ -59,7 +62,13 @@ After installation, in your html file insert the below code snippet
 <script src="/node_modules/title-effects/index.js"></script>
 ```
 
-Then in the title tag, add a class from the above list of class names 
+(A) If you have not installed using npm, you may directly insert the below code snippet
+```
+<script src="https://raw.githubusercontent.com/ritikyk/title-effects/refs/heads/main/index.js"></script>
+```
+
+Then,
+In the title tag, add a class from the above list of class names 
 ```
 <title class = "marquee-left"> Hello World! </title>
 ```
